@@ -8,5 +8,9 @@ import (
 func main() {
 	fmt.Println("Calculadora")
 	c := domain.Calculadora{}
-	fmt.Println("Total: ", c.Sumar(2, 9))
+	var numero1 int = 2
+	var numero2 int = 9
+
+	fmt.Println("Suma: ", c.Sumar(numero1, numero2))
+	fmt.Println("Resta: ", c.Restar(numero2, numero1))
 }
