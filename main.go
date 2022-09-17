@@ -15,4 +15,5 @@ func main() {
 	fmt.Println("Resta: ", c.Restar(numero2, numero1))
 	fmt.Println("Multiplicar: ", c.Multiplicar(numero2, numero1))
 	fmt.Println("Division entera: ", c.DivisionEntera(numero2, numero1))
+	fmt.Println("Division Resicuo: ", c.DivisionResiduo(numero2, numero1))
 }
