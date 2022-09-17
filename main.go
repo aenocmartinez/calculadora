@@ -13,4 +13,5 @@ func main() {
 
 	fmt.Println("Suma: ", c.Sumar(numero1, numero2))
 	fmt.Println("Resta: ", c.Restar(numero2, numero1))
+	fmt.Println("Multiplicar: ", c.Multiplicar(numero2, numero1))
 }
