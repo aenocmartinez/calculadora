@@ -17,3 +17,7 @@ func (c *Calculadora) Restar(numero1, numero2 int) int {
 func (c *Calculadora) Multiplicar(numero1, numero2 int) int {
 	return numero1 * numero2
 }
+
+func (c *Calculadora) DivisionEntera(numero1, numero2 int) int {
+	return numero1 / numero2
+}
